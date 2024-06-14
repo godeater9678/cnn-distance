@@ -14,7 +14,7 @@ objpoints = []  # 3D 좌표를 저장할 리스트
 imgpoints = []  # 2D 좌표를 저장할 리스트
 
 # 캘리브레이션 이미지 로드
-images = glob.glob('cali.png')
+images = glob.glob('cali.webp')
 if not images:
     raise FileNotFoundError("No calibration images found in the specified folder.")
 
